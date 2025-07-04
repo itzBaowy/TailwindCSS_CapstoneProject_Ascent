@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.animate-up-down {
+  animation: upDown 2.5s ease-in-out infinite;
+}
+
+@keyframes leftRight2 {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+}
+
+.animate-left-right-2 {
+  animation: leftRight2 3s ease-in-out infinite;
+}
+
+@keyframes skewing {
+  50% {
+    transform: skewX(5deg);
+  }
+}
+
+.animate-skw {
+  animation: skewing 2s linear infinite;
+}
