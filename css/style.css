@@ -43,3 +43,13 @@ body {
 .animate-skw {
   animation: skewing 2s linear infinite;
 }
+
+@keyframes left-right{
+  50%{
+    transform: translateX(15px);
+  }
+}
+
+.animate-left-right{
+  animation: left-right 2s linear infinite;
+}
